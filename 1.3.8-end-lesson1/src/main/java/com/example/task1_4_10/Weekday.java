@@ -5,7 +5,8 @@ public class Weekday {
 
     public static boolean isWeekend(String weekday) {
         switch (weekday) {
-            case "Saturday": case "Sunday":
+            case "Saturday":
+                case "Sunday":
                 return true;
             default:
                 return false;
